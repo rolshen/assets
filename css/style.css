@@ -3,8 +3,8 @@ body {
     margin-top: 0px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 150%;
-
-
+    background: url("../images/criss-cross.jpg");
+    
 header {
     background-color: #ffffff;
     border-color: #cccccc;
@@ -19,7 +19,7 @@ h1 {
     background-color: #4aaaa5;
     color: white;
     float: left;
-    margin-left: 200px;
+    margin-left: 230px;
     margin-top: 0px;
     text-align: center;
     padding: 25px;
@@ -27,7 +27,7 @@ h1 {
 
 ul {
     list-style-type: none;
-    margin-right: 200px;
+    margin-right: 230px;
     margin-top: 10px;
     padding: 0;
     overflow: hidden;
@@ -57,26 +57,26 @@ ul {
   }
 
   .container {
+       
+  }
+  
+  #full {
     margin: 0 auto;
     margin-top: 100px;
     width: 960px;
     overflow: auto;
     background-color: #ffffff;
   }
-  
-  #full {
-    margin: 0px;
-  }
    
   aside {
     float: left;
-    margin-top: 65px;
+    margin-top: 85px;
     margin-bottom: 100px;
     margin-left: 25px;
     margin-right: 15px;
     width: 200px;
     height: 200px;
-    background-color: #777777;
+    background-image: url("../images/Randy.jpg");
   }
   
   hr {
@@ -85,19 +85,27 @@ ul {
    margin-right: 25px;  
   }
 
+  h2 {
+    color: #4aaaa5;
+  }
   p {
     margin-right: 20px;
   }
 
+  p1 {
+    margin-left: -215px;
+  }
+
   footer {
-    float: left;
+    margin: 0px auto;
     margin-top: 50px;
+    margin-left: -60px;
+    margin-right: -60px;
     padding: 20px;
     /* clear: both; */
     border-top: 8px solid #4aaaa5;
     background: #666666;
     color: #ffffff;
     text-align: center;
-    width: 100%;
   }
   
