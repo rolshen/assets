@@ -91,11 +91,13 @@ ul {
   hr {
    height: 2px;
    background-color: #777777;
-   margin-right: 25px;  
+   margin-right: 25px;
+   margin-left: 30px;  
   }
 
   h2 {
     color: #4aaaa5;
+    margin-left: 30px;
   }
   p {
     margin-right: 30px;
@@ -112,6 +114,19 @@ ul {
     line-height: 175%;
   }
 
+  .portfolioimage {
+    float: left;
+    margin:20px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .information {
+    margin: 20px;
+    padding: 10px;
+  }
+
   footer {
     margin: 0px auto;
     margin-top: 50px;
@@ -123,5 +138,6 @@ ul {
     background: #666666;
     color: #ffffff;
     text-align: center;
+    position: sticky;
   }
   
